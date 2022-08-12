@@ -89,10 +89,13 @@ function handleClick(event) {
     }
   }
 
+
+
   function reset(){
     billInput.value = '0.0' //deffult value for bill input after grabbing with DOM
     billInputFun()
     peopleInput.value = '1' //deffult value for number of people input after grabbing with DOM
     peopleInputFun()
     tipCustom.value = "";
+    
   }
